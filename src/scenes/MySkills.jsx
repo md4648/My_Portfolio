@@ -37,7 +37,7 @@ const MySkills = () => {
           </p>
           <LineGradient width={"w-1/3"} />
           {}
-          <p className="mt-10 mb-7 text-2xl md:text-base">
+          <p className="mt-10 mb-7 text-2xl md:text-base font-playfair">
             Skills That Drive My Passion
           </p>
         </motion.div>
@@ -163,7 +163,7 @@ const MySkills = () => {
 
 
 
-<p className="text-2xl   font-semibold text-red">some introduction to my skills ability and value is below. LET'S BUILD SOMETHING AWESOME TOGETHER</p>
+<p className="text-2xl   mt-40 text-red font-playfair">some introduction to my skills ability is below. LET'S BUILD SOMETHING AWESOME TOGETHER</p>
 
 
       <div className=" mt-16 sm:grid grid-cols-2 md:grid-cols-3 gap-y-4 ">

@@ -59,9 +59,9 @@ const Landing = ({ setSelectPage }) => {
               Software
             </span>
           </p>
-          <p className="mt-16 mb-7 text-4xl md:text-2xl text-center md:text-start paragraph ">
-          Welcome ! My name is Muluneh Debebe, I'm a passionate web and mobile app developer dedicated to turning innovative 
-          ideas into interactive digital experiences. Explore my work and see how I can bring your vision to life.
+          <p className="mt-16 mb-7 text-4xl md:text-2xl text-center md:text-start paragraph    ">
+          Welcome ! My name is Muluneh Debebe,I live in Ethiopia, Addis Ababa, I'm a passionate web and mobile app developer and Graphics Designer dedicated to turning innovative 
+          ideas into interactive digital experiences.Explore my work and see how I can bring your vision to life.
           </p>
         </motion.div>
 

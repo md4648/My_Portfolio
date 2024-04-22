@@ -80,7 +80,7 @@ const Testemonial = () => {
         >
           <p className="font-playfair text-5xl">"</p>
           <p className="text-center text-2xl md:text-base">
-          Your mobile application development expertise has taken my business to
+          Your web application development expertise has taken my business to
           the next level. The app you built is not only user-friendly but also
           beautifully designed
          

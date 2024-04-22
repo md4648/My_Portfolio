@@ -42,8 +42,8 @@ const Projects = () => {
         className="md:w-2/4 mx-auto text-center"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
+        viewport={{ once: false, amount: 0.5 }}
+        transition={{ delay: 0.5, duration: 0.6 }}
         variants={{
           hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
@@ -91,9 +91,9 @@ const Projects = () => {
           {/* ROW 2 */}
           <Project title="Project 19"  discription="It's My Blog website" />
           <Project title="Project 14" discription="Dice Game"/>
-          <Project title="Project 3" />
+          <Project title="Project 3" discription="Upcoming"/>
           {/* ROW 3 */}
-          <Project title="Project 4" />
+          <Project title="Project 4" discription="Upcoming" />
           {/* <Project title="Project 7" /> */}
           
           

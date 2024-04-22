@@ -128,7 +128,7 @@ understanding of networking fundamentals, enabling me to design and manage secur
           </p>
 
           <a
-              className=" p-3  bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className=" p-3 rounded-2xl shadow-md  bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
               type="submit"
               href="https://www.credly.com/badges/b24d19c9-89b4-413f-9d08-54418f45fe12/public_url"
             >
