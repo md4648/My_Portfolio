@@ -82,7 +82,7 @@ const Designs = () => {
             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             {/* For static element at top */}
-            BEAUTIFUL USER INTERFACES
+            AMAZING PHOTOGRAPHY
           </div>
           
           <Design title="design 1"/>
@@ -114,7 +114,7 @@ const Designs = () => {
             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             {/* For static element at top */}
-            SMOOTH USER EXPERIENCE
+           AWESOME GRAPHICS
           </div>
         </motion.div>
       </div>
