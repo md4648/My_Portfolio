@@ -120,7 +120,7 @@ const MyEducation = () => {
             {/*break self closing Div*/}
           </div>
 
-          <p className="mt-5 text-3xl md:text-base">
+          <p className="mt-5  mb-5 text-3xl md:text-base">
             
 Certified in CCNA: Introduction to Networks by Cisco, I possess a comprehensive 
 understanding of networking fundamentals, enabling me to design and manage secure,
@@ -128,11 +128,11 @@ understanding of networking fundamentals, enabling me to design and manage secur
           </p>
 
           <a
-              className=" p-3 rounded-2xl shadow-md text-2xl md:text-base  bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className=" p-3 rounded-2xl shadow-md text-2xl md:text-base  bg-yellow font-semibold text-deep-blue hover:bg-red hover:text-white transition duration-500"
               type="submit"
               href="https://www.credly.com/badges/b24d19c9-89b4-413f-9d08-54418f45fe12/public_url"
             >
-              View My badge
+              View My badgee
             </a>
         </motion.div>
 
