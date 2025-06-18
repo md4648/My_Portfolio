@@ -132,7 +132,7 @@ understanding of networking fundamentals, enabling me to design and manage secur
               type="submit"
               href="https://www.credly.com/badges/b24d19c9-89b4-413f-9d08-54418f45fe12/public_url"
             >
-              View My badgee
+              View My badge
             </a>
         </motion.div>
 
