@@ -24,7 +24,7 @@ const Landing = ({ setSelectPage }) => {
               alt="profile"
               className="hover:filter hover:saturate-100 transition duration-500 z-10 w-full
                     max-w-[400px] md:max-w-[600px] rounded-t-[700px]  "
-              src="assets/propic4.jpg"
+              src="assets/propic5.JPG"
             />
           </div>
         ) : (

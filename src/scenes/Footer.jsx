@@ -11,7 +11,7 @@ const Footer=()=>{
                 </p>
 
                 <p className="font-playfair text-md text-yellow text-1xl md:text-base">
-                ©2024 MD. All Rights Reserved.
+                ©2025 MD. All Rights Reserved.
                 </p>
 
               </div>
