@@ -3,7 +3,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import Projects from "./scenes/Projects";
-import Design from "./scenes/Design";
+//  import Design from "./scenes/Design";
 import Footer from  "./scenes/Footer"
 import Testemonials from "./scenes/Testemonials";
 
@@ -12,6 +12,7 @@ import MySkills from "./scenes/MySkills";
 import React, { useEffect, useState } from "react";
 import UseMediaQuery from "./hooks/useMediaQuery";
 import MyEducation from "./scenes/MyEducation";
+import Experiance from "./scenes/Experiance";
 
 function App() {
   const [selectedPage, setSelectPage] = useState("home");
@@ -48,8 +49,17 @@ function App() {
         <MySkills />
       </div>
 
+       <LineGradient />
+
       <div className="w-5/6 mx-auto md:h-full">
         <MyEducation />
+      </div>
+
+       <LineGradient />
+
+
+         <div className="w-5/6 mx-auto md:h-full">
+        <Experiance />
       </div>
 
       <LineGradient />
@@ -61,9 +71,10 @@ function App() {
       <LineGradient />
 
 
-      <div className="w-5/6 mx-auto">
+      {/* <div className="w-5/6 mx-auto">
         <Design />
-      </div>
+      </div> */}
+
 
       <LineGradient />
 

@@ -3,16 +3,6 @@ import LineGradient from "../components/LineGradient";
 
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import reactLogo from "../lotties/reactLogo.json";
-import nodeLogo from "../lotties/node.json"
-import vueLogo from "../lotties/vueLogo.json"
-import reactNative from "../lotties/reactNative.json"
-import fireBase from "../lotties/firebaseLogo.json"
-import Flutter from "../lotties/flutterLogo.json"
-import mongodbLogo from "../lotties/mongodbLogo.json"
-import javaScriptLogo from "../lotties/javaScript.json"
-import Lottie from "lottie-react";
 
 
 const MyEducation = () => {
@@ -167,17 +157,6 @@ understanding of networking fundamentals, enabling me to design and manage secur
         </motion.div>
       </div>
 
-
-       
-
-
-
-     
-
-
-      
-
-      
     </section>
   );
 };
