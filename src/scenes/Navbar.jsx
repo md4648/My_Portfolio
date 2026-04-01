@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState ,useEffect} from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
@@ -18,7 +18,7 @@ const Link = ({ page, selectedPage, setSelectPage }) => {
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
-  const [darkMode, setDarkMode] = useState(true);
+   const [darkMode, setDarkMode] = useState(true);
 
   const isAboveSmallScreens = useMediaQuery("(min-width:1060px)");
   const navbarBackground = isTopOfPage
@@ -36,17 +36,18 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectPage }) => {
     }
   }, []);
 
-  // const toggleTheme = () => {
-  //   if (darkMode) {
-  //     document.documentElement.classList.remove("dark");
-  //     localStorage.setItem("theme", "light");
-  //     setDarkMode(false);
-  //   } else {
-  //     document.documentElement.classList.add("dark");
-  //     localStorage.setItem("theme", "dark");
-  //     setDarkMode(true);
-  //   }
-  // };
+  const toggleTheme = () => {
+    if (darkMode) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      setDarkMode(false);
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      setDarkMode(true);
+    }
+  };
+
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6 transition`}>
@@ -68,12 +69,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectPage }) => {
             <Link page="Contact" selectedPage={selectedPage} setSelectPage={setSelectPage} />
 
             {/* THEME BUTTON */}
-            {/* <button
+            <button
               onClick={toggleTheme}
               className="text-xl ml-4 hover:scale-110 transition"
             >
-              {darkMode ? "☀️" : "🌙"}
-            </button> */}
+              {/* {darkMode ? "☀️" : "🌙"} */}
+            </button>
           </div>
         ) : (
           <button
