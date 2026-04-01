@@ -27,7 +27,7 @@ const projectDetails = {
       "assets/projects/forex 3.png",
      "assets/projects/forex 4.png",
     ],
-    repo: "https://github.com/",
+    repo: "",
     demo: "",
   },
 
