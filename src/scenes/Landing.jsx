@@ -60,8 +60,8 @@ const Landing = ({ setSelectPage }) => {
             </span>
           </p>
           <p className="mt-16 mb-7 text-4xl md:text-2xl text-center md:text-start paragraph    ">
-          Welcome ! My name is Muluneh Debebe,I live in Ethiopia, Addis Ababa, I'm a passionate web and mobile app developer and Graphics Designer dedicated to turning innovative 
-          ideas into interactive digital experiences.Explore my work and see how I can bring your vision to life.
+          I’m Muluneh Debebe a Full Stack Developer who builds modern, scalable web applications from front end to back end.
+          I enjoy solving real-world problems, creating clean user experiences, and turning ideas into reliable digital products.
           </p>
         </motion.div>
 
@@ -86,6 +86,8 @@ const Landing = ({ setSelectPage }) => {
             contact Me
           </AnchorLink>
 
+          
+
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainbow py-0.5 pr-0.5"
             onClick={() => setSelectPage("contact")}
@@ -98,7 +100,19 @@ const Landing = ({ setSelectPage }) => {
               Let's talk
             </div>
           </AnchorLink>
+
+             <a
+                href="https://drive.google.com/file/d/1PfBwjVBe0d5AiU42rCMOcmj1U0sOBHnf/preview"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-20 border-2 border-white text-white rounded-sm py-3 px-7 font-semibold
+                hover:bg-white hover:text-deep-blue transition duration-500 font-playfair px-10"
+              >
+                 CV
+              </a>
         </motion.div>
+
+   
 
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
